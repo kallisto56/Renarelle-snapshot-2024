@@ -1,0 +1,14 @@
+FileVersion = 1
+Dependencies = {corlib = "*", Renarelle = "*", "System.MessageBox" = "*"}
+
+[Project]
+Name = "Renarelle.Editor"
+TargetType = "BeefGUIApplication"
+StartupObject = "Renarelle.Editor.Program"
+
+[Platform.Windows]
+IconFile = "./dist/fish.ico"
+
+[[ProjectFolder.Items]]
+Type = "IgnoreSource"
+Name = "DefaultUIRenderer.bf"

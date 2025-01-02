@@ -1,0 +1,10 @@
+FileVersion = 1
+Dependencies = {corlib = "*", corlib = "*", SDL3 = "*"}
+
+[Project]
+Name = "SDL3_image"
+DefaultNamespace = "SDL3_Image"
+
+[Configs.Debug.Win64]
+LibPaths = ["$(ProjectDir)/dist/$(Configuration)_$(Platform)/SDL3_image.lib"]
+PostBuildCmds = ["CopyToDependents(\"$(ProjectDir)/dist/$(Configuration)_$(Platform)/*.dll\")"]

@@ -1,0 +1,5 @@
+FileVersion = 1
+Projects = {Renarelle = {Path = "."}, "System.Math" = "*", "System.Diagnostics" = "*", SDL3 = "*", FreeType = "*"}
+
+[Workspace]
+StartupProject = "Renarelle"

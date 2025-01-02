@@ -1,0 +1,5 @@
+FileVersion = 1
+Projects = {"System.Diagnostics" = {Path = "."}}
+
+[Workspace]
+StartupProject = "System.Diagnostics"

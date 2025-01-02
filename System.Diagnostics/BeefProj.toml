@@ -1,0 +1,9 @@
+FileVersion = 1
+
+[Project]
+Name = "System.Diagnostics"
+
+[[Configs.Debug.Win64.DistinctOptions]]
+Filter = "System.Error"
+EmitDebugInfo = "Yes"
+AllocStackTraceDepth = 1

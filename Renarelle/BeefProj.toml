@@ -1,0 +1,17 @@
+FileVersion = 1
+Dependencies = {corlib = "*", FreeType = "*", SDL3 = "*", "System.Diagnostics" = "*", "System.Math" = "*", SDL3_image = "*"}
+
+[Project]
+Name = "Renarelle"
+
+[[ProjectFolder.Items]]
+Type = "AutoFolder"
+Name = "Graphics"
+
+[[ProjectFolder.Items.Items]]
+Type = "AutoFolder"
+Name = "RenderPass"
+
+[[ProjectFolder.Items.Items.Items]]
+Type = "IgnoreSource"
+Name = "_RenderPass.bf"

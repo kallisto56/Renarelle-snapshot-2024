@@ -1,0 +1,10 @@
+FileVersion = 1
+Projects = {"Renarelle.Editor" = {Path = "."}, Renarelle = "*", "System.MessageBox" = "*", SDL3_image = "*"}
+Unlocked = ["Renarelle"]
+WorkspaceFolders = {Essential = ["corlib", "FreeType", "SDL3", "System.Diagnostics", "System.MessageBox", "System.Math", "SDL3_image"]}
+
+[Workspace]
+StartupProject = "Renarelle.Editor"
+
+[Configs.Debug.Win64]
+AllocStackTraceDepth = 10
